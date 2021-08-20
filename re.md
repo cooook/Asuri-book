@@ -33,7 +33,8 @@
 - 请学会使用 [apt 的用法](https://www.linuxidc.com/Linux/2019-08/160197.htm)，[切换源为国内源](http://mirrors.ustc.edu.cn/help/ubuntu.html)（如果你对网络有自信的话，这一步可以省略），将系统更新之后安装一些常用工具：
 
   ```bash
-  $ sudo apt install build-essential man gdb git
+  $ sudo apt install build-essential \
+    man gdb git
   ```
 
 
@@ -53,7 +54,9 @@ int main()
 我们使用命令编译：
 
 ``` bash
-# 在 Visual Studio 中，我们可以使用按钮代替这一过程，但这并不利于逆向的学习。本文及之后的内容都会在 Linux 上运行。
+# 在 Visual Studio 中，我们可以使用图形化的选项代替这一过程，
+# 但这并不利于逆向的学习。
+# 本文及之后的内容都会在 Linux 上运行。
 
 # gcc
 $ gcc -o main main.cpp
