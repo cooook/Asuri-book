@@ -14,7 +14,9 @@
 
 在逆向之前，我们需要知道在计算机的眼里程序是长什么样子的。
 
-{% 推荐使用 WSL2 style="info" %}
+{% hint style="info" %}
+
+**推荐使用 WSL2**
 
 接下来的大部分操作都在 Linux 上进行。
 
@@ -66,7 +68,9 @@ $ clang -o main main.cpp
 
 这样我们就得到了一个可执行的 `main` 文件。在这个过程中，编译器将我们可以理解的程序代码转换成为了机器可以理解的二进制文件。如果我们用文本文档打开这个可执行文件，只会得到一串乱码。不过计算机中的所有内容都是由人定义的，虽然在我们看来它是一个[黑箱](https://en.wikipedia.org/wiki/Black_box)，但是只要我们了解了人们对程序的定义，那么所有的迷雾都会烟消云散。在打开文件之前，我们需要知道一些更方便的操作。
 
-{% 快速进入到当前环境下的 WSL2 路径 style="info" %}
+{% hint style="info" %}
+
+**快速进入到当前环境下的 WSL2 路径**
 
 在上图中的左上角，对目录或者文件点击右键，单击“Reveal in Explorer”即可快速用文件资源管理器打开当前路径。
 
@@ -74,7 +78,9 @@ $ clang -o main main.cpp
 
 {% endhint %}
 
-{% 更好地使用 IDA Pro style="info" %}
+{% hint style="info" %}
+
+**更好地使用 IDA Pro**
 
 在下载 IDA Pro 并解压之后，请让它的路径中不要包含任何中文字符。在分析程序时，不要让被分析的路径包含空格。
 
@@ -102,7 +108,9 @@ Windows Registry Editor Version 5.00
 
 {% endhint %}
 
-{% 可执行程序的格式 style="info" %}
+{% hint style="info" %}
+
+**可执行程序的格式**
 
 在 Linux 中，可执行文件的格式被称为 ELF（可执行与可链接格式，Executable and Linkable Format），而 Windows 下的可执行文件格式则被称为 PE（可移植可执行，Portable Executable）。除此之外，可执行文件也有位数的区别，一般情况下，我们编译的程序是 64 位的，不过也与我们使用的编译参数有关。如果你发现无法用 ida64 打开，不妨试试直接使用 ida 打开。有关可执行程序的更多内容，未来会有更详细的讲解。
 
