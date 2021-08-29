@@ -6,3 +6,4 @@
 * [pwn](pwn.md)
 * [web](web/web0.md)
 * [re](re.md)
+* [misc](misc/misc.md)
