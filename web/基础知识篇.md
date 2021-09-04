@@ -82,11 +82,11 @@
 
 协议之所以称之为协议，是因为其是由已经协商好的，也可以称为一种规范，用这样规范的形式作交互，即
 
-一个简易的图片说明前后端的关系：![image-20210903101806759](http://image-teach.test.upcdn.net/basic/http.png)
+一个简易的图片说明前后端的关系：![http.png](https://i.loli.net/2021/09/04/uEeGpk31xJT6hAg.png)
 
 打开熟悉的Burp，利用Burp截包可以看到报文的内容
 
-![image-20210903101913575](http://image-teach.test.upcdn.net/basic/image-20210903101913575.png)
+![image-20210903101913575.png](https://i.loli.net/2021/09/04/879cuCsFMnLIlxJ.png)
 
 请求报文**Request**的格式：
 
