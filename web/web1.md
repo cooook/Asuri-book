@@ -26,27 +26,27 @@ https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
 
 下载过程中，需要注意下载路径，可以根据电脑的情况自行更改
 
-![](http://image-teach.test.upcdn.net/tools/jdk.png)
+![jdk.png](https://i.loli.net/2021/09/04/jruf6E1eHV327JQ.png)
 
 环境配置（以我的电脑为例）：
 
 右键此电脑-属性-高级系统设置-环境变量
 
-![](http://image-teach.test.upcdn.net/tools/huanjing.png)
+![huanjing.png](https://i.loli.net/2021/09/04/kFfZGPQCX8hIer9.png)
 
 
 
 以我的配置为例
 
-![image-20210823213434578](http://image-teach.test.upcdn.net/tools/huanjing2.png)
+![huanjing2.png](https://i.loli.net/2021/09/04/Elx5tWUNPoXiGb1.png)
 
 编辑系统变量
 
-![image-20210823215307484](http://image-teach.test.upcdn.net/tools/huanjing3.png)
+![huanjing3.png](https://i.loli.net/2021/09/04/cYoglv29VWA5bCI.png)
 
 编辑用户变量-Path-编辑-新建
 
-![image-20210823215440191](http://image-teach.test.upcdn.net/tools/huanjing3.png)
+![huanjing4.png](https://i.loli.net/2021/09/04/EYaeJXmOop1vKAR.png)
 
 验证是否安装成功：
 
@@ -61,7 +61,7 @@ java
 javac
 ```
 
-![image-20210823215756319](http://image-teach.test.upcdn.net/tools/huanjing5.png)
+![huanjing5.png](https://i.loli.net/2021/09/04/i2zNrmckgnb5vhA.png)
 
 ### 安装Burp
 
@@ -79,17 +79,17 @@ javaw -jar burp-loader-keygen-2.jar
 
 根据图中找到这个位置，可以看到监听的是127.0.0.1的8080端口，这里之后可以按需配置
 
-![](http://image-teach.test.upcdn.net/tools/burp.png)
+![buro.png](https://i.loli.net/2021/09/04/egn5azhP7X3ANFQ.png)
 
 以Firefox为例
 
-![](http://image-teach.test.upcdn.net/tools/firefox.png)
+![firefox.png](https://i.loli.net/2021/09/04/VieIB4WvYPojr13.png)
 
-![](http://image-teach.test.upcdn.net/tools/firefox2.png)
+![firefox2.png](https://i.loli.net/2021/09/04/IZoKLuMPwqG3SkU.png)
 
 可以使用Proxy Switcher插件进行代理的切换和快速的配置
 
-![image-20210825214804321](http://image-teach.test.upcdn.net/tools/proxy.png)
+![proxy.png](https://i.loli.net/2021/09/04/mtcAUCrRJ9Xxdhf.png)
 
 ## Hackbar插件
 
@@ -101,7 +101,7 @@ javaw -jar burp-loader-keygen-2.jar
 
 ### 下载phpstudy
 
-![image-20210825231756510](http://image-teach.test.upcdn.net/tools/phpstudy.png)
+![phpstudy.png](https://i.loli.net/2021/09/04/XpQ8MBy7OE5zDcd.png)
 
 一般可以打开一个Apache+mysql，点击左侧网站和数据库可以开始配置相关信息
 
@@ -113,7 +113,7 @@ javaw -jar burp-loader-keygen-2.jar
 <? phpinfo(); ?>
 ```
 
-![image-20210826134946989](http://image-teach.test.upcdn.net/tools/test.png)
+![test.png](https://i.loli.net/2021/09/04/I3RXuaYZJ4QlOxg.png)
 
 ## 后话
 
