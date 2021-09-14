@@ -18,10 +18,12 @@ shell可以就理解为是一个机子的控制权限，或者操作权限
 会打开一个黑框子——控制台窗口
 
 ![1](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/1.png)  
+
 这个黑框就可以称为你Windows的shell  
 
 linux同理`Ctrl + Alt +T`  
 ![2](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/2.png)  
+
 在这个黑框里，你可以输入指令来进行文件夹或文件的访问、重命名、删除，ip访问，软件安装，关机，rm -rf /*等等许多你能想到的能用键鼠实现的操作  
 
 
@@ -123,54 +125,78 @@ Linux有许多花里胡哨的版本，这里咱们就用ubuntu 16.04就行
 速度太慢的话还有[其他源](https://blog.csdn.net/kwame211/article/details/83902851)可以下  
 这里我就翻中科大的牌儿了  
 ![3](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/3.png)  
+
 下载好后打开VMware，创建新的虚拟机  
 ![4](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/4.png)  
+
 选择自定义  
 ![5](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/5.png) 
+
 直接下一步 
 ![6](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/6.png)  
+
 选择骚后安装操作系统，下一步
 ![7](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/7.png)  
+
 选择Linux,下面找到ubuntu64，下一步  
-![8](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/8.png)
+![8](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/8.png)  
+
 然后给虚拟机取个名字，这里用句大实话代替，下面位置必须是已经存在的文件夹(建议别放C盘)，下一步  
-![9](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/9.png)
+![9](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/9.png)  
+
 直接下一步
-![10](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/10.png)
+![10](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/10.png)  
+
 内存看自己配置，16G电脑就给8G，8G电脑就给4G，下一步  
-![11](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/11.png)
+![11](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/11.png)  
+
 直接下一步
-![12](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/12.png)
+![12](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/12.png)  
+
 下一步
-![13](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/13.png)
+![13](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/13.png)  
+
 下一步
-![14](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/14.png)
+![14](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/14.png)  
+
 下一步
-![15](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/15.png)
+![15](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/15.png)  
+
 选择储存为单个文件，下一步
-![16](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/16.png)
+![16](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/16.png)  
+
 下一步
-![17](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/17.png)
+![17](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/17.png)  
+
 选择自定义硬件
 使用ISO镜像文件，把下载的ubuntu镜像位置填进去
-![18](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/18.png)
+![18](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/18.png)  
+
 关闭，完成  
 这样就有了一个虚拟机
-![19](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/19.png)
+![19](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/19.png)  
+
 点击开启此虚拟机，等出现下面这个画面，选择中文，安装ubuntu
-![20](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/20.png)
+![20](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/20.png)  
+
 直接继续
-![21](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/21.png)
+![21](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/21.png)  
+
 选择现在安装
-![22](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/22.png)
+![22](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/22.png)  
+
 选择继续
 ![23](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/23.png)  
+
 继续  
 ![24](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/24.png)  
+
 汉语，继续
-![25](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/25.png)
+![25](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/25.png)  
+
 账户密码，继续
 ![26](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/26.png)  
+
 等它搞完，选择重启  
 这样一个活生生的Linux就装好了  
 不要升级！  
@@ -178,11 +204,14 @@ Linux有许多花里胡哨的版本，这里咱们就用ubuntu 16.04就行
 不要升级！  
 然后咱们把源换一下，不然下载东西很慢  
 先进入设置-系统设置，找到软件和更新  
-![27](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/27.png)  
+![27](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/27.png)   
+
 打开，找到`下载自`选项  
 ![28](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/28.png)  
+
 选择中国，或者在`中国`选项下面选一个看着顺眼的源  
-![29](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/29.png)
+![29](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/29.png)  
+
 然后授权-关闭-重新载入  
 接着要装一些库让你64位的Linux可以运行32位的程序  
 `Ctrl + Alt + T`打开控制台  
@@ -205,12 +234,14 @@ Windows说实话其实没有太多需要配置的，nc签到题要是嫌麻烦�
 使用方法，以[CTF秀](https://ctf.show/challenges)为例  
 PWN第一题`PWN签到题`，直接先launch了这个instance  
 ![30](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/30.png)  
+
 看到一行`nc 111.231.70.44 28071`  
 这个就是我们要连接的目标地址  
 安装好netcat后直接复制进控制台  
 ![31](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/31.png)  
+
 flag就出来了  
-![32](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/32.png)
+![32](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/32.png)  
 
 ## 工具
 
@@ -219,24 +250,31 @@ flag就出来了
 IDA  
 群文件里可以直接下载  
 ![33](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/33.png)  
+
 emmm还有三天到期？那你们猜猜这个文档是什么时候写的
 IDA是一个功能很强大的反编译软件，使用方法如下  
 假设我们已经下好了一个二进制文件  
 ![34](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/34.png)  
+
 双击直接打开，这时会询问打开方式，~~用我们熟悉的影音先锋打开它~~，直接拖到最后选择`在这台电脑上查找其他应用`
 ![35](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/35.png)  
+
 找到你IDA的安装目录，会看到有两个可执行文件，带64的是反编译64位文件的，不带64是反编译32位文件的  
 至于怎么看这个文件是32位的还是64位的，可以拖进Linux里用`elf`命令查看  
 但是两个exe都试一下看看哪个没报错其实也挺方便  
 而且题目做多了以后你们就可以自己总结出在IDA打开文件时有哪些小细节能帮助你判断这是32位的还是64位的
 ![36](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/36.png)  
+
 打开文件时一路确定就行，然后一般都直接进main函数去分析它的主要功能
 ![37](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/37.png)  
+
 双击进入，可以看到main函数的整体流程和汇编代码，按`空格`可以切换到线性代码，按下`F5`能反汇编出伪代码  
 ![38](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/38.png)  
+
 多数变量和函数名都是IDA默认命名，可以右键重命名便于自己理解程序  
 函数可以双击跟进去分析其功能，然后按`ESC`返回跟进前的函数  
 ![39](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/39.png)  
+
 双击变量可以查看他们在栈上的排列，就不贴图了  
 
 ### Linux部分
@@ -247,7 +285,7 @@ IDA是一个功能很强大的反编译软件，使用方法如下
 
 Python是干啥的应该不用我介绍吧  
 ubuntu默认安装了python 2.7,`Ctrl + Alt + T`调出控制台，输入`python`，测试一下python是不是能正常使用  
-![40](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/40.png)
+![40](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/40.png)  
 
 ###### pwntools
 
@@ -308,7 +346,7 @@ gdb
 
 如果显示了`gdb-peda$`说明安装成功
 
-![42](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/42.png)
+![42](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/42.png)  
 
 ###### checksec
 
@@ -326,7 +364,7 @@ sudo ln -s checksec /usr/local/bin/checksec
 checksec
 ```
 
- ![43](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/43.png)
+ ![43](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/43.png)  
 
 ###### ROPgadget
 
@@ -345,7 +383,7 @@ git clone https://github.com/JonathanSalwan/ROPgadget.git
 cd ROPgadget
 sudo python setup.py install
 ```
-![44](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/44.png)
+![44](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/44.png)  
 报错是因为我没加参数，如果报的错不一样，那么八成是安装失败了  
 checksec也是
 
@@ -358,7 +396,7 @@ pip install keystone-engine
 pip install ropper
 ```
 
-![45](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/45.png)
+![45](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/45.png)  
 
 话说我为了写这个入门手册，自己又配好了一个环境，要不要干脆就打包发出来呢  
 还是算了，~~我去年装虚拟机经历的痛苦，你们一丝都不能少~~  
@@ -379,6 +417,7 @@ nc 106.15.120.40 8009
 
 找到main，F5反编译  
 ![46](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/46.png)  
+
 看到通过scanf可以往cmmand这个变量里输入8个字符  
 
 在程序的最后会调用system执行cmmand  
@@ -396,7 +435,8 @@ nc 106.15.120.40 8009
 实际上就是在和这些字符比较  
 
 点击36，按`R`可以将整数转换为字符  
-![47](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/47.png)  
+![47](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/47.png)   
+
 意思是说  
 
 如果发现cmmand里面有'$'并且下一个是'0'  
@@ -453,8 +493,10 @@ commad也会变成'sh'
 
 这样，最后就执行了system('sh')，也就拿到shell了  
 ![48](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/48.png)  
+
 可以看到在haoshufu这个程序里出现了控制台标志$，并且可以对输入的指令进行响应  
 ![49](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/49.png)  
+
 那咱们连上远端，实战一下  
 
 ```
@@ -468,24 +510,26 @@ nc 106.15.120.40 8009
 ```
 
 
-![50](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/50.png)
+![50](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/50.png)  
+
 
 ```
 shsh
 ```
-![51](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/51.png)
+![51](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/51.png)  
 
 ```
 ls   查看目录
 ```
 
-![52](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/52.png)
+![52](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/52.png)  
 
 ```
 cat flag   打印flag文件内容
 ```
 
-![53](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/53.png)
+![53](https://raw.githubusercontent.com/cooook/Asuri-book/master/pic/53.png)  
+
 flag就是`flag{biubiubiubiubiubiubiubiu}`
 
 ##### ** 其他解法
