@@ -22,6 +22,6 @@
 ![QQ图片20210818161647.jpg](https://i.loli.net/2021/08/18/wr5qm8bSFlBy1ot.jpg)  
 
 # 了解更多
-Asuri2021招新群:685178433   
+Asuri 2022 hope招新群:585351952   
 帅气木队在线答疑:466283115  
 [靶场地址](https://ctfhub.nuaa.today:8000/)
